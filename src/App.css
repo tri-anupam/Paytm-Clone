@@ -1,0 +1,54 @@
+
+
+.subRouteContainer {
+  position: absolute;
+  min-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  transition: visibility  ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.sMenu {
+  position: relative;
+  display: inline-block;
+  
+}
+.sMenu:hover {
+  visibility: visible;
+  opacity: 1;
+  
+}
+.sMenu:hover :last-child {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.menuButton {
+  padding: 1rem;
+  padding: 8px 12px;
+  transition-duration: 300s;
+  font-size: 17px;
+  background-color: transparent;
+}
+.menuButton:hover {
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-color: #cccccc3f;
+}
+.subRoute {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0.3rem;
+  border-radius: 0.5rem;
+  
+}
+.subRoute:hover {
+  
+  background-color: #cccccc3f;
+}
